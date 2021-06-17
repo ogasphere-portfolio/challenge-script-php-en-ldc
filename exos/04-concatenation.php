@@ -13,7 +13,7 @@ a) En utilisant les variables suivantes, créer une 3ème variable "bestVideoGam
 $videoGamesPortable = 'GameBoy, GameGear, PSP';
 $videoGames = 'SuperNintendo, MegaDrive, Playstation';
 // TON CODE ICI
-
+$bestVideoGames1 = "les meilleures portables sont $videoGamesPortable.";
 
 
 // FIN DE TON CODE
@@ -26,7 +26,7 @@ b) En utilisant les variables définies, créer une 4ème variable "bestVideoGam
 */
 // TON CODE ICI
 
-
+$bestVideoGames2= "Les meilleures consoles de jeux sont $videoGames";
 
 // FIN DE TON CODE
 if (isset($aok) && $aok) {
@@ -39,7 +39,7 @@ c) En utilisant les variables que tu as créées dans a) et b), ajouter du conte
     Les meilleures consoles de jeux sont SuperNintendo, MegaDrive, Playstation, et les meilleures portables sont GameBoy, GameGear, PSP.
 */
 // TON CODE ICI
-
+$bestVideoGames2= "$bestVideoGames2, et $bestVideoGames1" ;
 
 
 // FIN DE TON CODE

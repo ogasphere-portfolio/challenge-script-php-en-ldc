@@ -10,7 +10,7 @@ a) Créer une variable nommée "toto" avec pour valeur 45
 */
 // TON CODE ICI
 
-
+$toto=45;
 
 // FIN DE TON CODE
 displayExo('variables-a');
@@ -21,7 +21,7 @@ b) créer une variable nommée "tata" avec comme valeur la chaîne de caractère
 */
 // TON CODE ICI
 
-
+$tata='Oclock';
 
 // FIN DE TON CODE
 if (isset($aOk) && $aOk) {
@@ -34,7 +34,7 @@ c) créer une variable nommée "titi" avec comme valeur le booléen "vrai"
 */
 // TON CODE ICI
 
-
+$titi=true;
 
 // FIN DE TON CODE
 if (isset($bOk) && $bOk) {

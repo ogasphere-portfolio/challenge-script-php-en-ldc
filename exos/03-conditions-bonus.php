@@ -38,9 +38,39 @@ $ecoleMaternelle = null;
 $centreDActionMedicoSocialePrecoce = null; // aka le bien connu CAMSP !
 
 // TON CODE ICI
-
-
-
+if ($age<=6) {
+    $protectionMaternelleEtInfantile = true; 
+    $creche = null;
+    $halteGarderie = true;
+    $jardinDEnfants = true;
+    $jardinDEveil = true;
+    $assistanteMaternelle = true;
+    $ecoleMaternelle = null;
+    $centreDActionMedicoSocialePrecoce = true;; 
+    
+}
+if ($age<=3) {
+    $protectionMaternelleEtInfantile = true; 
+    $creche = true;
+    $halteGarderie = true;
+    $jardinDEnfants = true;
+    $jardinDEveil = true;
+    $assistanteMaternelle = true;
+    $ecoleMaternelle = null;
+    $centreDActionMedicoSocialePrecoce = true;; 
+    
+}
+if ($age>=2 && $age<=6) {
+    $protectionMaternelleEtInfantile = true; 
+    // $creche = true;
+    $halteGarderie = true;
+    $jardinDEnfants = true;
+    $jardinDEveil = true;
+    $assistanteMaternelle = true;
+    $ecoleMaternelle = true;
+    $centreDActionMedicoSocialePrecoce = true;; 
+    
+}
 // FIN DE TON CODE
 displayExo('conditions-a');
 $aOk = checkVariableValue(array('protectionMaternelleEtInfantile'=>$age<7,'creche'=>$age<4,'halteGarderie'=>$age<7,'jardinDEnfants'=>$age<7,'jardinDEveil'=>$age<7,'assistanteMaternelle'=>$age<7,'ecoleMaternelle'=>$age>1&&$age<7,'centreDActionMedicoSocialePrecoce'=>$age<7));

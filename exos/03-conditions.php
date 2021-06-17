@@ -20,7 +20,11 @@ $estAdulte = null; // null = aucune valeur d'aucun type
 
 // TON CODE ICI
 
-
+if ($age>=18) {
+    $estAdulte=true;
+}else {
+    $estAdulte=false;
+}
 
 // FIN DE TON CODE
 displayExo('conditions-a');
@@ -37,6 +41,24 @@ $estAdulte = null;
 
 // TON CODE ICI
 
+if ($age<=18) {
+    $estEnfant =true;
+    $estAdulte =false;
+}
+if ($age>19) {
+    $estEnfant = false; 
+    $estAdolescent = false;
+    $estAdulte=true;
+}
+if ($age<=18 && $age>=10) {
+    $estEnfant = true; 
+    $estAdolescent = true;
+    $estAdulte=false;
+}elseif ($age=19) {
+    $estEnfant = false; 
+    $estAdolescent = true;
+    $estAdulte=true;
+}
 
 
 // FIN DE TON CODE

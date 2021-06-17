@@ -16,6 +16,7 @@ $c = 7;
 $d = 2;
 // TON CODE ICI
 
+$calculA= $c*$a +($b-$d);
 
 
 // FIN DE TON CODE
@@ -31,7 +32,7 @@ $b = 2;
 $c = 3;
 $d = 4;
 // TON CODE ICI
-
+$calculB=($d*$b*$a)-$c;
 
 
 // FIN DE TON CODE
@@ -49,7 +50,7 @@ $b = 8;
 $c = 3;
 $d = 9;
 // TON CODE ICI
-
+$calculC=(($a-$c)*$d)+$b;
 
 
 // FIN DE TON CODE
