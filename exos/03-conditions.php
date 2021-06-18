@@ -54,7 +54,7 @@ if ($age<=18 && $age>=10) {
     $estEnfant = true; 
     $estAdolescent = true;
     $estAdulte=false;
-}elseif ($age=19) {
+}elseif ($age==19) {
     $estEnfant = false; 
     $estAdolescent = true;
     $estAdulte=true;
