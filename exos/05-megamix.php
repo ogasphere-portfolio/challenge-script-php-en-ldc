@@ -2,8 +2,6 @@
 
 require dirname(__DIR__).'/inc/functions.php';
 
-// ---- MegaMix des notions du jour ----
-// fiche récap : https://kourou.oclock.io/ressources/fiches-recap/
 
 /*
 On veut calculer le tarif d'une place de cinéma
